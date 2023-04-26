@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "set"
+version = "0.0.1"
+description = "basic python implementation of the card game set"
+authors = ["Sky \"g3ner1c\" H. <g3ner1c-sky@pm.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.0"
+isort = "^5.10"
+black = "^22.10"
+
+[tool.black]
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+max_line_length = 88
